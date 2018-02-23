@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ctoedu-tuitor.iml" filepath="$PROJECT_DIR$/ctoedu-tuitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-consumer-movie/mic-consumer-movie.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-consumer-movie/mic-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-discovery-eureka/mic-discovery-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-discovery-eureka/mic-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-provider-user/mic-provider-user.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-provider-user/mic-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+# 增加用户名和密码
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin
+    password: admin123
+server:
+  port: 8761
+
+eureka:
+  datacenter: cloud
+  environment: product
+  client:
+    register-with-eureka: false # 单机环境设置成false
+    fetch-registry: false # 单机环境设置成false
+    service-url:
+      defaultZone: http://admin:admin123@localhost:8761/eureka
