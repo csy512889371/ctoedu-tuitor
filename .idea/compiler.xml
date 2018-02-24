@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mic-consumer-movie" />
         <module name="mic-discovery-eureka" />
+        <module name="mic-gateway-zuul" />
         <module name="mic-provider-user" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="ctoedu-tuitor" target="1.5" />
       <module name="mic-consumer-movie" target="1.8" />
       <module name="mic-discovery-eureka" target="1.8" />
+      <module name="mic-gateway-zuul" target="1.8" />
       <module name="mic-provider-user" target="1.8" />
       <module name="spring-cloud-learn" target="1.8" />
     </bytecodeTargetLevel>

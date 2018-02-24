@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mic-consumer-movie-feign
+    name: mic-consumer-movie
 server:
   port: 7901
 eureka:

@@ -10,6 +10,7 @@
         <module>./mic-discovery-eureka</module>
         <module>./mic-provider-user</module>
         <module>./mic-consumer-movie</module>
+        <module>./mic-gateway-zuul</module>
     </modules>
     <packaging>pom</packaging>
 
