@@ -3,7 +3,9 @@ package com.ctoedu.message.service.impl;
 import com.ctoedu.message.mapper.RpTransactionMessageMapper;
 import com.ctoedu.message.model.RpTransactionMessage;
 import com.ctoedu.message.service.RpTransactionMessageService;
+import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,6 +32,9 @@ public class RpTransactionMessageServiceImpl implements RpTransactionMessageServ
     public List<RpTransactionMessage> findAllMessage(int pageNum, int pageSize) {
         //将参数传给这个方法就可以实现物理分页了，非常简单。
         PageHelper.startPage(pageNum, pageSize);
-        return rpTransactionMessageMapper.selectAllMessage();
+        List<RpTransactionMessage> list = rpTransactionMessageMapper.selectAllMessage();
+        /*PageInfo<RpTransactionMessage> pageInfo = new PageInfo<>(list);
+        System.out.println(pageInfo.getTotal());*/
+        return list;
     }
 }
