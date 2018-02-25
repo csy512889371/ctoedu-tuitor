@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-discovery-eureka/mic-discovery-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-discovery-eureka/mic-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-gateway-zuul/mic-gateway-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-gateway-zuul/mic-gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/mic-provider-user/mic-provider-user.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/mic-provider-user/mic-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-message/spring-boot-message.iml" filepath="$PROJECT_DIR$/spring-boot-message/spring-boot-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" />
     </modules>
   </component>
